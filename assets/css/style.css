@@ -1,0 +1,659 @@
+@charset "UTF-8";
+/*=================== fonts ====================*/
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700|Roboto+Slab:300,400,500,700|Noto+Sans+TC:300,400,500,700&display=swap");
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.row.m0 {
+  margin: 0px;
+}
+
+body {
+  line-height: 30px;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  color: #58547e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+i:before {
+  margin-left: 0px !important;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.m0 {
+  margin: 0px;
+}
+
+.p0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.p_100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pad_top {
+  padding-top: 100px;
+}
+
+.pad_btm {
+  padding-bottom: 100px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.body_wrapper {
+  overflow: hidden;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #01cfbe;
+}
+
+::selection {
+  background-color: #01cfbe;
+  color: #fff;
+}
+
+-webkit-::selection {
+  background-color: #01cfbe;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #01cfbe;
+  color: #fff;
+}
+
+.loader_running {
+  overflow: hidden;
+}
+
+/* WorldWide Tracker Area css
+============================================================================================ */
+.world_wide_tracker {
+  padding-bottom: 140px;
+}
+
+.world_wide_tracker .container {
+  position: relative;
+}
+
+.world_wide_tracker .tracker_map {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  max-width: 1042px;
+  margin: auto;
+  z-index: -1;
+}
+
+.world_wide_tracker .media .d-flex {
+  padding-right: 15px;
+}
+
+.world_wide_tracker .media .media-body {
+  align-self: center;
+}
+
+.world_wide_tracker .media .media-body h2 {
+  font: 700 36px "Quicksand", sans-serif;
+  margin-bottom: 6px;
+}
+
+.world_wide_tracker .media .media-body p {
+  color: #9491b0;
+  font: 500 16px "Quicksand", sans-serif;
+  margin-bottom: 0px;
+}
+
+.world_wide_tracker .tracker_text {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.world_wide_tracker .tracker_text h5 {
+  color: #01cfbe;
+  font: 500 24px "Quicksand", sans-serif;
+  margin-bottom: 12px;
+}
+
+.world_wide_tracker .tracker_text h2 {
+  font: 700 48px "Quicksand", sans-serif;
+  margin-bottom: 12px;
+}
+
+.world_wide_tracker .tracker_text p {
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.world_wide_tracker .tracker_btn {
+  text-align: center;
+  margin-top: 65px;
+  padding-bottom: 90px;
+}
+
+/* End WorldWide Tracker Area css
+============================================================================================ */
+
+.footer_copyright.coming_soon_footer {
+  background: transparent;
+  padding-bottom: 0;
+  padding-top: 7vh;
+}
+
+.footer_copyright.coming_soon_footer p:before {
+  display: none;
+}
+
+.footer_copyright.coming_soon_footer .nav li a,
+.footer_copyright.coming_soon_footer p,
+.footer_copyright.coming_soon_footer h6 {
+  color: #c4c0e4;
+}
+
+.footer_copyright.coming_soon_footer .nav li a span,
+.footer_copyright.coming_soon_footer p span,
+.footer_copyright.coming_soon_footer h6 span {
+  color: #fff;
+}
+
+.footer_copyright.coming_soon_footer .nav {
+  display: block;
+  padding-bottom: 8px;
+}
+
+.footer_copyright.coming_soon_footer .nav li {
+  margin-right: 20px;
+}
+
+.footer_copyright.coming_soon_footer .nav li a {
+  font-size: 21px;
+}
+
+/* End coming_soon_area css
+  ============================================================================================ */
+
+/* Covid Widgets Area css
+============================================================================================ */
+.world_wide_tracker.tracker_page {
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+
+.world_wide_tracker.tracker_page .tracker_text {
+  padding-top: 0px;
+}
+
+.world_wide_tracker.tracker_page .container {
+  padding-bottom: 65px;
+}
+
+.confirm_boxes {
+  margin-top: 55px;
+}
+
+.confirm_boxes .col-lg-2 {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.confirm_boxes .confirm_item {
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px 0px rgba(51, 48, 78, 0.15);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.confirm_boxes .confirm_item i {
+  font-size: 36px;
+}
+
+.confirm_boxes .confirm_item h3 {
+  font: 700 24px "Quicksand", sans-serif;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.confirm_boxes .confirm_item p {
+  font: 500 14px "Quicksand", sans-serif;
+  margin-bottom: 0px;
+}
+
+.total_cases_chart {
+  padding-top: 60px;
+}
+
+.total_cases_chart .total_cases_inner {
+  padding-left: 15px;
+}
+
+.total_cases_chart .total_cases_inner iframe {
+  width: 100%;
+  height: 480px;
+}
+
+.coronavirus_map iframe {
+  width: 100%;
+  height: 765px;
+  border: none;
+  margin-bottom: -8px;
+  pointer-events: none;
+}
+
+.coronavirus_map iframe.clicked {
+  pointer-events: auto;
+}
+
+/* End Covid Widgets Area css
+============================================================================================ */
+/* DataTable Area css
+============================================================================================ */
+.data_table_area {
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_length {
+  float: right;
+  margin-top: 14px;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_length label {
+  font: 600 16px "Quicksand", sans-serif;
+  color: #58547e;
+  margin-bottom: 0px;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_length label select {
+  border: none;
+  padding: 0px 20px;
+  width: 80px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: none;
+  outline: none;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_filter {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_filter label {
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_filter label:before {
+  content: "\ec7c";
+  font-family: "Linearicons" !important;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #58547e;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_filter label input {
+  border: none;
+  border-bottom: 2px solid #58547e;
+  box-shadow: none;
+  width: 250px;
+  padding: 0px 20px 0px 10px;
+  font: 600 16px "Quicksand", sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: none;
+  box-shadow: none;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_filter label input.placeholder {
+  font: 600 16px "Quicksand", sans-serif;
+  color: #58547e;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_filter label input:-moz-placeholder {
+  font: 600 16px "Quicksand", sans-serif;
+  color: #58547e;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_filter label input::-moz-placeholder {
+  font: 600 16px "Quicksand", sans-serif;
+  color: #58547e;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_filter label input::-webkit-input-placeholder {
+  font: 600 16px "Quicksand", sans-serif;
+  color: #58547e;
+}
+
+.data_table_area .dataTables_wrapper .table {
+  width: 100% !important;
+}
+
+.data_table_area .dataTables_wrapper .table th {
+  padding: 0px;
+}
+
+.data_table_area .dataTables_wrapper .table thead tr {
+  background: #32323a;
+}
+
+.data_table_area .dataTables_wrapper .table thead tr th {
+  padding-left: 18px;
+  padding-right: 18px;
+  color: #fff;
+  height: 53px;
+  font: 700 14px "Quicksand", sans-serif;
+  border: 1px solid #d6d9e2;
+  border-right: 1px solid #5b5b69;
+  vertical-align: middle;
+  position: relative;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.data_table_area .dataTables_wrapper .table thead tr th:first-child {
+  width: 50px !important;
+}
+
+.data_table_area .dataTables_wrapper .table thead tr th:before {
+  content: "\ec42";
+  font-family: "Linearicons" !important;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #797983;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr {
+  background: transparent !important;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td {
+  text-align: right;
+  vertical-align: middle;
+  font: 500 14px "Quicksand", sans-serif;
+  border: 1px solid #d6d9e2;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td .text-primary {
+  color: #58547e !important;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td .text-danger {
+  color: #58547e !important;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td .text-success {
+  color: #58547e !important;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td .text-warning {
+  color: #58547e !important;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td:nth-child(1) {
+  text-align: center;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td:nth-child(2) {
+  text-align: center;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td:nth-child(3) {
+  text-align: left;
+  font: 700 16px "Quicksand", sans-serif;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td:nth-child(3) span {
+  color: #01cfbe;
+  text-decoration: underline;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td:nth-child(5) {
+  background: #ffde90;
+  font: 700 14px "Quicksand", sans-serif;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td:nth-child(5) .text-primary {
+  color: #000 !important;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td:nth-child(7) {
+  background: #01cfbd;
+  font: 700 14px "Quicksand", sans-serif;
+}
+
+.data_table_area .dataTables_wrapper .table tbody tr td:nth-child(7) .text-danger {
+  color: #fff !important;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_info {
+  display: inline-block;
+  font: 700 14px "Quicksand", sans-serif;
+  color: #58547e;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_paginate {
+  float: right;
+  overflow: hidden;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_paginate .paginate_button {
+  font: 700 14px "Quicksand", sans-serif;
+  color: #58547e;
+  height: 30px;
+  width: 30px;
+  background: rgba(0, 0, 0, 0.02);
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.data_table_area .dataTables_wrapper .dataTables_paginate .paginate_button.previous, .data_table_area .dataTables_wrapper .dataTables_paginate .paginate_button.next {
+  background: transparent;
+  width: auto;
+  height: auto;
+}
+
+/* End DataTable Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Key Frame Animation Area css
+============================================================================================ */
+@keyframes covidmove {
+  0% {
+    transform: translateY(0px) rotate(180deg);
+  }
+  25% {
+    transform: translateY(-50px) translateX(-10px);
+  }
+  50% {
+    transform: translateY(-50px) translateX(-10px) rotate(-45deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* End Key Frame Animation Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Preloader Area css
+============================================================================================ */
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+  z-index: 999;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  transition: all 300ms linear 0s;
+}
+
+.preloader .loader-counter {
+  width: 100%;
+  align-self: center;
+}
+
+.preloader .loader_bg {
+  background: #d4d4e1;
+  height: 10px;
+}
+
+.preloader .loader_bg .loader {
+  background: #01cfbe;
+  height: 10px;
+  width: 0px;
+}
+
+.preloader.pageisloaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* End Preloader Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Footer Area css
+============================================================================================ */
+
+.footer_copyright {
+  background: #ffff;
+  text-align: center;
+  padding: 55px 0px 60px 0px;
+}
+
+.footer_copyright img {
+  display: block;
+  margin: 0px auto 16px;
+}
+
+.footer_copyright p {
+  font: 500 13px "Quicksand", sans-serif;
+  color: #8d8aa8;
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.footer_copyright p:before {
+  content: "|";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8d8aa8;
+}
+
+.footer_copyright .nav {
+  display: inline-block;
+}
+
+.footer_copyright .nav li {
+  display: inline-block;
+  margin-right: 13px;
+}
+
+.footer_copyright .nav li:last-child {
+  margin-right: 0px;
+}
+
+.footer_copyright .nav li a {
+  color: #8d8aa8;
+  font: 700 13px "Quicksand", sans-serif;
+  transition: all 300ms linear 0s;
+}
+
+.footer_copyright .nav li a:hover {
+  color: #01cfbe;
+}
+
+.footer_copyright h6 {
+  margin-bottom: 0px;
+  font: 500 13px "Quicksand", sans-serif;
+  color: #8d8aa8;
+  margin-top: 15px;
+}
+
+.footer_copyright h6 i {
+  color: #fa4d6e;
+}
+
+.footer_copyright h6 span {
+  font-weight: bold;
+}
+/* End Footer Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*# sourceMappingURL=style.css.map */
